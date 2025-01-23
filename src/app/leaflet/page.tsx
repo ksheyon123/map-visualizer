@@ -1,17 +1,15 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
-
-const MapWithNoSSR = dynamic(
-  () =>
-    import("../../components/LeafLet").then((module) => module.LeafletD3Map),
+// Leaflet을 동적으로 임포트
+const LeafletD3Map = dynamic(
+  () => import("@/components/LeafLet").then((m) => m.LeafletD3Map),
   {
-    ssr: false,
+    ssr: false, // 서버사이드 렌더링 비활성화
   }
 );
-
 const Page = () => {
-  return <MapWithNoSSR />;
+  return <LeafletD3Map />;
 };
 
 export default Page;
