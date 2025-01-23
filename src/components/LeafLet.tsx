@@ -4,14 +4,17 @@ import L from "leaflet";
 
 export const LeafletD3Map = () => {
   const mapRef = useRef<any>(null);
-  const svgRef = useRef<any>(null);
+  // const svgRef = useRef<any>(null);
   const mapInstance = useRef<any>(null);
 
   useEffect(() => {
+    // 서울 시청
+    const x = 37.5665;
+    const y = 126.978;
     // Leaflet 맵 초기화
     const map = L.map(mapRef.current, {
       // 맵 옵션 추가
-      center: [37.5665, 126.978],
+      center: [x, y],
       zoom: 12,
       maxBounds: [
         [33.0, 124.0], // 남서쪽 경계
@@ -20,12 +23,17 @@ export const LeafletD3Map = () => {
       minZoom: 7, // 최소 줌 레벨
       maxZoom: 18, // 최대 줌 레벨
       worldCopyJump: true,
-    }).setView([37.5665, 126.978], 12);
+    }).setView([x, y], 12);
+
+    // https://leaflet-extras.github.io/leaflet-providers/preview/
+    const layers = [
+      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png",
+    ];
 
     // OpenStreetMap 타일 레이어 추가
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
-      map
-    );
+    L.tileLayer(layers[2]).addTo(map);
     mapInstance.current = map;
 
     // SVG 오버레이 생성
@@ -34,7 +42,7 @@ export const LeafletD3Map = () => {
       .append("svg")
       .attr("class", "leaflet-zoom-hide");
 
-    svgRef.current = svg;
+    // svgRef.current = svg;
 
     // 샘플 데이터
     const sampleData = [
@@ -87,7 +95,7 @@ export const LeafletD3Map = () => {
   }, []);
 
   return (
-    <div className="w-full h-96 relative">
+    <div className="w-[600px] h-[800px] relative">
       <div ref={mapRef} className="w-full h-full" />
     </div>
   );
