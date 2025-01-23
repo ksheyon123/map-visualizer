@@ -69,7 +69,6 @@ const Page = () => {
       .scaleLinear()
       .domain([yExtent[0] - 10000, yExtent[1] + 10000])
       .range([height - 50, 50]);
-
     const lineGenerator = d3
       .line()
       .x((d) => xScale(d[0]))

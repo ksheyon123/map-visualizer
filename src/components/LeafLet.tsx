@@ -1,20 +1,21 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import L from "leaflet";
+import nodes from "@/constants/NODE.json";
+import { NodeFeature } from "@/types/type.d3";
+import proj4 from "proj4";
 
 export const LeafletD3Map = () => {
   const mapRef = useRef<any>(null);
-  // const svgRef = useRef<any>(null);
-  const mapInstance = useRef<any>(null);
 
   useEffect(() => {
     // 서울 시청
-    const x = 37.5665;
-    const y = 126.978;
+    const cx = 38;
+    const cy = 127.5;
     // Leaflet 맵 초기화
     const map = L.map(mapRef.current, {
       // 맵 옵션 추가
-      center: [x, y],
+      center: [cx, cy],
       zoom: 12,
       maxBounds: [
         [33.0, 124.0], // 남서쪽 경계
@@ -23,9 +24,9 @@ export const LeafletD3Map = () => {
       minZoom: 7, // 최소 줌 레벨
       maxZoom: 18, // 최대 줌 레벨
       worldCopyJump: true,
-    }).setView([x, y], 12);
+    }).setView([cx, cy], 9);
 
-    // https://leaflet-extras.github.io/leaflet-providers/preview/
+    // Leaflet map list : https://leaflet-extras.github.io/leaflet-providers/preview/
     const layers = [
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -34,22 +35,12 @@ export const LeafletD3Map = () => {
 
     // OpenStreetMap 타일 레이어 추가
     L.tileLayer(layers[2]).addTo(map);
-    mapInstance.current = map;
 
     // SVG 오버레이 생성
     const svg = d3
       .select(map.getPanes().overlayPane)
       .append("svg")
       .attr("class", "leaflet-zoom-hide");
-
-    // svgRef.current = svg;
-
-    // 샘플 데이터
-    const sampleData = [
-      { lat: 37.5665, lng: 126.978, value: 100 }, // 서울
-      { lat: 37.5311, lng: 126.9168, value: 75 }, // 영등포
-      { lat: 37.599, lng: 127.0328, value: 50 }, // 동대문
-    ];
 
     // D3 시각화 함수
     const updateD3Overlay = () => {
@@ -59,6 +50,7 @@ export const LeafletD3Map = () => {
       const topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
       const bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
 
+      // SVG 좌우상하 끝점 좌표
       svg
         .style("left", `${topLeft.x}px`)
         .style("top", `${topLeft.y}px`)
@@ -66,15 +58,31 @@ export const LeafletD3Map = () => {
         .style("height", `${bottomRight.y - topLeft.y}px`);
 
       // 데이터 포인트 업데이트
-      const circles = svg.selectAll("circle").data(sampleData);
+      const circles = svg
+        .selectAll("circle")
+        .data(nodes.features as NodeFeature[]);
 
       circles
         .enter()
         .append("circle")
         .merge(circles as any)
-        .attr("cx", (d) => map.latLngToLayerPoint([d.lat, d.lng]).x - topLeft.x)
-        .attr("cy", (d) => map.latLngToLayerPoint([d.lat, d.lng]).y - topLeft.y)
-        .attr("r", (d) => d.value / 10)
+        .attr("cx", (d: NodeFeature) => {
+          return (
+            map.latLngToLayerPoint({
+              lat: d.geometry.coordinates[1],
+              lng: d.geometry.coordinates[0],
+            }).x - topLeft.x
+          );
+        })
+        .attr("cy", (d: NodeFeature) => {
+          return (
+            map.latLngToLayerPoint({
+              lat: d.geometry.coordinates[1],
+              lng: d.geometry.coordinates[0],
+            }).y - topLeft.y
+          );
+        })
+        .attr("r", 3)
         .attr("fill", "red")
         .attr("fill-opacity", 0.6)
         .attr("stroke", "white")
