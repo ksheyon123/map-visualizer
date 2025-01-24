@@ -4,13 +4,15 @@ import L from "leaflet";
 import nodes from "@/constants/NODE.json";
 import links from "@/constants/LINK.json";
 import { LinkFeature, NodeFeature } from "@/types/type.d3";
+import { layoutContour } from "@/utils/d3Utils";
+import { useD3Overlay } from "@/hooks/useD3Overlay";
 
 export const LeafletD3Map = () => {
   const mapRef = useRef<any>(null);
-
+  const { setGroup, drawLink, drawNode } = useD3Overlay();
   useEffect(() => {
-    const cx = 37.5;
-    const cy = 127.5;
+    const cx = 36.5;
+    const cy = 127.8;
     // Leaflet 맵 초기화
     const map = L.map(mapRef.current, {
       // 맵 옵션 추가
@@ -23,7 +25,7 @@ export const LeafletD3Map = () => {
       minZoom: 7, // 최소 줌 레벨
       maxZoom: 18, // 최대 줌 레벨
       worldCopyJump: true,
-    }).setView([cx, cy], 9);
+    }).setView([cx, cy], 8);
 
     // Leaflet map list : https://leaflet-extras.github.io/leaflet-providers/preview/
     const layers = [
@@ -43,77 +45,16 @@ export const LeafletD3Map = () => {
       .append("svg")
       .attr("class", "leaflet-zoom-hide");
 
-    const pathG = svg.append("g").attr("class", "map-link-container");
-    const circleG = svg.append("g").attr("class", "map-node-container");
+    const pg = setGroup(svg, "map-link-container");
+    const cg = setGroup(svg, "map-node-container");
 
     // D3 시각화 함수
     const updateD3Overlay = () => {
-      const bounds = map.getBounds();
+      layoutContour(map, svg, pg, cg);
 
-      // SVG 컨테이너 위치 업데이트
-      const topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
-      const bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
-
-      // SVG 좌우상하 끝점 좌표, 지도 움직임에 따라서 노출 영역 변환
-      svg
-        .style("left", `${topLeft.x}px`)
-        .style("top", `${topLeft.y}px`)
-        .style("width", `${bottomRight.x - topLeft.x}px`)
-        .style("height", `${bottomRight.y - topLeft.y}px`);
-
-      pathG.attr("transform", `translate(${-topLeft.x},${-topLeft.y})`);
-      const pathes = pathG
-        .selectAll("path")
-        .data(links.features as LinkFeature[]);
-
-      pathes
-        .enter()
-        .append("path")
-        .merge(pathes as any)
-        .attr("d", (d) => {
-          const coordinates = d.geometry.coordinates;
-          const points = coordinates.map((coord) => {
-            const point = map.latLngToLayerPoint([coord[1], coord[0]]);
-            return `${point.x},${point.y}`;
-          });
-          return `M${points.join("L")}`;
-        })
-        .attr("fill", "none")
-        .attr("stroke", "#3498db")
-        .attr("stroke-width", 2)
-        .attr("class", "hover:opacity-80 transition-opacity");
-
-      circleG.attr("transform", `translate(${-topLeft.x},${-topLeft.y})`);
+      const pathes = drawLink(map, pg, links.features);
+      const circles = drawNode(map, cg, nodes.features);
       // 데이터 포인트 업데이트
-      const circles = circleG
-        .selectAll("circle")
-        .data(nodes.features as NodeFeature[]);
-
-      circles
-        .enter()
-        .append("circle")
-        .merge(circles as any)
-        .attr(
-          "cx",
-          (d: NodeFeature) =>
-            map.latLngToLayerPoint({
-              lat: d.geometry.coordinates[1],
-              lng: d.geometry.coordinates[0],
-            }).x
-        )
-        .attr(
-          "cy",
-          (d: NodeFeature) =>
-            map.latLngToLayerPoint({
-              lat: d.geometry.coordinates[1],
-              lng: d.geometry.coordinates[0],
-            }).y
-        )
-        .attr("r", 3)
-        .attr("fill", "red")
-        .attr("fill-opacity", 0.6)
-        .attr("stroke", "white")
-        .attr("stroke-width", 1);
 
       pathes.exit().remove();
       circles.exit().remove();
@@ -127,8 +68,8 @@ export const LeafletD3Map = () => {
     return () => {
       map.remove();
       svg.remove();
-      pathG.remove();
-      circleG.remove();
+      pg.remove();
+      cg.remove();
     };
   }, []);
 
