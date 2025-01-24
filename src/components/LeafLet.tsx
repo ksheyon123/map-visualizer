@@ -2,15 +2,14 @@ import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import L from "leaflet";
 import nodes from "@/constants/NODE.json";
-import { NodeFeature } from "@/types/type.d3";
-import proj4 from "proj4";
+import links from "@/constants/LINK.json";
+import { LinkFeature, NodeFeature } from "@/types/type.d3";
 
 export const LeafletD3Map = () => {
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
-    // 서울 시청
-    const cx = 38;
+    const cx = 37.5;
     const cy = 127.5;
     // Leaflet 맵 초기화
     const map = L.map(mapRef.current, {
@@ -31,16 +30,21 @@ export const LeafletD3Map = () => {
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       "https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png",
+      "https://tile.openstreetmap.bzh/ca/{z}/{x}/{y}.png",
+      "https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png",
     ];
 
     // OpenStreetMap 타일 레이어 추가
-    L.tileLayer(layers[2]).addTo(map);
+    L.tileLayer(layers[0]).addTo(map);
 
     // SVG 오버레이 생성
     const svg = d3
       .select(map.getPanes().overlayPane)
       .append("svg")
       .attr("class", "leaflet-zoom-hide");
+
+    const pathG = svg.append("g").attr("class", "map-link-container");
+    const circleG = svg.append("g").attr("class", "map-node-container");
 
     // D3 시각화 함수
     const updateD3Overlay = () => {
@@ -50,15 +54,38 @@ export const LeafletD3Map = () => {
       const topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
       const bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
 
-      // SVG 좌우상하 끝점 좌표
+      // SVG 좌우상하 끝점 좌표, 지도 움직임에 따라서 노출 영역 변환
       svg
         .style("left", `${topLeft.x}px`)
         .style("top", `${topLeft.y}px`)
         .style("width", `${bottomRight.x - topLeft.x}px`)
         .style("height", `${bottomRight.y - topLeft.y}px`);
 
+      pathG.attr("transform", `translate(${-topLeft.x},${-topLeft.y})`);
+      const pathes = pathG
+        .selectAll("path")
+        .data(links.features as LinkFeature[]);
+
+      pathes
+        .enter()
+        .append("path")
+        .merge(pathes as any)
+        .attr("d", (d) => {
+          const coordinates = d.geometry.coordinates;
+          const points = coordinates.map((coord) => {
+            const point = map.latLngToLayerPoint([coord[1], coord[0]]);
+            return `${point.x},${point.y}`;
+          });
+          return `M${points.join("L")}`;
+        })
+        .attr("fill", "none")
+        .attr("stroke", "#3498db")
+        .attr("stroke-width", 2)
+        .attr("class", "hover:opacity-80 transition-opacity");
+
+      circleG.attr("transform", `translate(${-topLeft.x},${-topLeft.y})`);
       // 데이터 포인트 업데이트
-      const circles = svg
+      const circles = circleG
         .selectAll("circle")
         .data(nodes.features as NodeFeature[]);
 
@@ -66,28 +93,29 @@ export const LeafletD3Map = () => {
         .enter()
         .append("circle")
         .merge(circles as any)
-        .attr("cx", (d: NodeFeature) => {
-          return (
+        .attr(
+          "cx",
+          (d: NodeFeature) =>
             map.latLngToLayerPoint({
               lat: d.geometry.coordinates[1],
               lng: d.geometry.coordinates[0],
-            }).x - topLeft.x
-          );
-        })
-        .attr("cy", (d: NodeFeature) => {
-          return (
+            }).x
+        )
+        .attr(
+          "cy",
+          (d: NodeFeature) =>
             map.latLngToLayerPoint({
               lat: d.geometry.coordinates[1],
               lng: d.geometry.coordinates[0],
-            }).y - topLeft.y
-          );
-        })
+            }).y
+        )
         .attr("r", 3)
         .attr("fill", "red")
         .attr("fill-opacity", 0.6)
         .attr("stroke", "white")
         .attr("stroke-width", 1);
 
+      pathes.exit().remove();
       circles.exit().remove();
     };
 
@@ -99,6 +127,8 @@ export const LeafletD3Map = () => {
     return () => {
       map.remove();
       svg.remove();
+      pathG.remove();
+      circleG.remove();
     };
   }, []);
 
