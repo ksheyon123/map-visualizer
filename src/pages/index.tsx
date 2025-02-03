@@ -1,6 +1,5 @@
-"use client";
 import dynamic from "next/dynamic";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 // Leaflet을 동적으로 임포트
 const LeafletD3Map = dynamic(
   () => import("@/components/LeafLet").then((m) => m.LeafletD3Map),
