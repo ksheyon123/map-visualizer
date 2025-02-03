@@ -17,5 +17,6 @@ export type LinkFeature = {
   };
   properties: {
     [key: string]: any;
+    COLOR?: string;
   };
 };

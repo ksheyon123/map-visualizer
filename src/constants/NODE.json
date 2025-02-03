@@ -1,203 +1,3422 @@
-{"type":"FeatureCollection", "features": [
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49182492537597,35.908746540680454]},"properties":{"NODE_ID":"3690223701","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.05103010443256,35.37617581977075]},"properties":{"NODE_ID":"3880146200","NODE_TYPE":"106","NODE_NAME":"양산IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0824491295341,37.417846567957326]},"properties":{"NODE_ID":"2040142800","NODE_TYPE":"106","NODE_NAME":"금토JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.12278295141488,35.55115277416113]},"properties":{"NODE_ID":"1960008800","NODE_TYPE":"101","NODE_NAME":"서울산IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.12548401358313,35.55674036792216]},"properties":{"NODE_ID":"1960009700","NODE_TYPE":"106","NODE_NAME":"서울산IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.9056986903261,36.221911295815104]},"properties":{"NODE_ID":"2770105200","NODE_TYPE":"106","NODE_NAME":"황간IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02660173640668,37.481470994771385]},"properties":{"NODE_ID":"1210000900","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02683636965172,37.48351551262961]},"properties":{"NODE_ID":"1210022400","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.65648825094604,35.911307254688374]},"properties":{"NODE_ID":"1510018300","NODE_TYPE":"106","NODE_NAME":"도동JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.58182601275698,35.910713993792655]},"properties":{"NODE_ID":"1540004400","NODE_TYPE":"106","NODE_NAME":"북대구IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.4526668791246,35.955672383072894]},"properties":{"NODE_ID":"3690016100","NODE_TYPE":"106","NODE_NAME":"칠곡물류IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08700142224518,37.21541971560501]},"properties":{"NODE_ID":"2330518301","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09054660771244,35.4889297753352]},"properties":{"NODE_ID":"3880014300","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.05259834193893,35.38094760037277]},"properties":{"NODE_ID":"3880146300","NODE_TYPE":"106","NODE_NAME":"양산IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.6979456359045,35.88819588902008]},"properties":{"NODE_ID":"1510213901","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.48955925892979,36.34645436185795]},"properties":{"NODE_ID":"1830073300","NODE_TYPE":"106","NODE_NAME":"비룡IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.41966940972885,36.44359930444206]},"properties":{"NODE_ID":"1870075300","NODE_TYPE":"106","NODE_NAME":"신탄진IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.12255645088268,35.55410730657087]},"properties":{"NODE_ID":"1960009000","NODE_TYPE":"106","NODE_NAME":"서울산IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10150506287766,37.39500591582988]},"properties":{"NODE_ID":"2060099600","NODE_TYPE":"106","NODE_NAME":"판교IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.55890951418456,36.314868742280574]},"properties":{"NODE_ID":"2760149100","NODE_TYPE":"106","NODE_NAME":"옥천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02606767141836,37.482945201180854]},"properties":{"NODE_ID":"1210021900","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01760941778527,37.521934525483175]},"properties":{"NODE_ID":"1210050100","NODE_TYPE":"106","NODE_NAME":"한남IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.36263507930454,36.11011067256914]},"properties":{"NODE_ID":"3550057500","NODE_TYPE":"106","NODE_NAME":"구미IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09993864059206,35.287322178531326]},"properties":{"NODE_ID":"1400060200","NODE_TYPE":"106","NODE_NAME":"노포IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.5320410138805,35.893283993786525]},"properties":{"NODE_ID":"1540001100","NODE_TYPE":"106","NODE_NAME":"금호JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.65625686807147,35.9144592134327]},"properties":{"NODE_ID":"1510018700","NODE_TYPE":"106","NODE_NAME":"도동JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08745373791434,37.215535094364625]},"properties":{"NODE_ID":"2330518501","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.09431271457606,36.13383385971477]},"properties":{"NODE_ID":"3530110600","NODE_TYPE":"106","NODE_NAME":"김천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0896611372921,37.40410730781549]},"properties":{"NODE_ID":"2040000100","NODE_TYPE":"106","NODE_NAME":"판교JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.37045554115917,36.66098170412549]},"properties":{"NODE_ID":"2710229400","NODE_TYPE":"106","NODE_NAME":"옥산하이패스IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42435466799557,36.59314808745073]},"properties":{"NODE_ID":"2830014700","NODE_TYPE":"106","NODE_NAME":"남이JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.43661529958386,36.56372400741002]},"properties":{"NODE_ID":"2830021600","NODE_TYPE":"106","NODE_NAME":"청주JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08610299196836,37.217406991754366]},"properties":{"NODE_ID":"2330518601","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.03927069012309,37.4631554685341]},"properties":{"NODE_ID":"1210012500","NODE_TYPE":"101","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.95448717053551,35.9224605250618]},"properties":{"NODE_ID":"3570001500","NODE_TYPE":"106","NODE_NAME":"영천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.17245541910441,36.83121655708964]},"properties":{"NODE_ID":"3010092700","NODE_TYPE":"106","NODE_NAME":"천안IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.5246310135996,35.897123993387936]},"properties":{"NODE_ID":"1540001800","NODE_TYPE":"106","NODE_NAME":"금호JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.69899401347152,35.882890993377835]},"properties":{"NODE_ID":"1510003100","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.30466694461768,36.14199686072988]},"properties":{"NODE_ID":"3550272001","NODE_TYPE":"106","NODE_NAME":"북구미하이패스IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49038410813668,35.90606725893569]},"properties":{"NODE_ID":"3690223001","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09054610400734,37.178111918050654]},"properties":{"NODE_ID":"2330120100","NODE_TYPE":"106","NODE_NAME":"동탄JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.4195900427254,36.437599463025755]},"properties":{"NODE_ID":"1870075200","NODE_TYPE":"106","NODE_NAME":"신탄진IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10331025015077,37.26806049703805]},"properties":{"NODE_ID":"2440326800","NODE_TYPE":"106","NODE_NAME":"수원신갈IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02520003128548,37.48530460637576]},"properties":{"NODE_ID":"1210025600","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.218592793467,36.7584457449023]},"properties":{"NODE_ID":"3010104000","NODE_TYPE":"106","NODE_NAME":"목천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.43040079035907,35.97956632049718]},"properties":{"NODE_ID":"3690068800","NODE_TYPE":"106","NODE_NAME":"왜관IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.43503594992973,35.97520767194812]},"properties":{"NODE_ID":"3690069600","NODE_TYPE":"106","NODE_NAME":"왜관IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.6972827613342,35.88390436301104]},"properties":{"NODE_ID":"1510212701","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.19013520898793,35.70906615944846]},"properties":{"NODE_ID":"1960317400","NODE_TYPE":"106","NODE_NAME":"활천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42017735581872,36.60461868231872]},"properties":{"NODE_ID":"2710000200","NODE_TYPE":"106","NODE_NAME":"남이JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.17754841854413,36.77500018281367]},"properties":{"NODE_ID":"3010095600","NODE_TYPE":"101","NODE_NAME":"천안JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.2725425439041,36.15651643190672]},"properties":{"NODE_ID":"3530017000","NODE_TYPE":"106","NODE_NAME":"김천JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.04275740610213,37.460633596567206]},"properties":{"NODE_ID":"1210011400","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02519426479526,37.483398674601496]},"properties":{"NODE_ID":"1210022500","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.04817999608376,37.454775253261786]},"properties":{"NODE_ID":"1210074700","NODE_TYPE":"106","NODE_NAME":"신양재IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.69214835028646,35.88411771716364]},"properties":{"NODE_ID":"1510212101","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49345372174957,35.903183936931214]},"properties":{"NODE_ID":"3690222901","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0961377217735,37.1781322102988]},"properties":{"NODE_ID":"2330526601","NODE_TYPE":"106","NODE_NAME":"동탄JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.56690886258522,36.30976101821161]},"properties":{"NODE_ID":"2760149400","NODE_TYPE":"106","NODE_NAME":"옥천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.0889963130091,36.13419962948864]},"properties":{"NODE_ID":"3530014400","NODE_TYPE":"106","NODE_NAME":"김천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.25960269993672,36.1613826191394]},"properties":{"NODE_ID":"3530017600","NODE_TYPE":"106","NODE_NAME":"김천JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.66719601338528,35.9173469938985]},"properties":{"NODE_ID":"1510004700","NODE_TYPE":"106","NODE_NAME":"도동JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.52566301356708,35.88931399408489]},"properties":{"NODE_ID":"1540000100","NODE_TYPE":"106","NODE_NAME":"금호JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.1893487944118,36.76702367606214]},"properties":{"NODE_ID":"3010098700","NODE_TYPE":"101","NODE_NAME":"천안JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.22055976204945,36.76026699430307]},"properties":{"NODE_ID":"3010104700","NODE_TYPE":"106","NODE_NAME":"목천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.6952686875994,35.88515616717364]},"properties":{"NODE_ID":"1510212601","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.04059755873038,37.46385955178671]},"properties":{"NODE_ID":"1210013100","NODE_TYPE":"101","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42136194891421,36.4100023685295]},"properties":{"NODE_ID":"1870001900","NODE_TYPE":"106","NODE_NAME":"회덕JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.45412662528912,36.35984660511417]},"properties":{"NODE_ID":"1870078600","NODE_TYPE":"106","NODE_NAME":"대전IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.03953988083167,37.464016220606176]},"properties":{"NODE_ID":"1210013400","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01503122284079,37.50914758346151]},"properties":{"NODE_ID":"1210044700","NODE_TYPE":"106","NODE_NAME":"잠원IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.046358254059,37.45728267150826]},"properties":{"NODE_ID":"1210074300","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.16683001201824,36.82655293199038]},"properties":{"NODE_ID":"3010090200","NODE_TYPE":"106","NODE_NAME":"천안IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08746817732269,37.215254423064415]},"properties":{"NODE_ID":"2330496100","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.3014474920945,36.14248246295801]},"properties":{"NODE_ID":"3550271801","NODE_TYPE":"106","NODE_NAME":"북구미하이패스IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02690677772166,37.48114869966723]},"properties":{"NODE_ID":"1210020300","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.08739001411226,35.840969994121934]},"properties":{"NODE_ID":"3520017900","NODE_TYPE":"106","NODE_NAME":"건천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.1733632413711,36.13360681774466]},"properties":{"NODE_ID":"3530023400","NODE_TYPE":"106","NODE_NAME":"동김천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.17531466900266,36.13797630830708]},"properties":{"NODE_ID":"3530023600","NODE_TYPE":"106","NODE_NAME":"동김천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.03773579949426,37.461899229260816]},"properties":{"NODE_ID":"1210000500","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.04200577933376,37.461184986355725]},"properties":{"NODE_ID":"1210011300","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.03941306426084,37.46391089236923]},"properties":{"NODE_ID":"1210013300","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02383811218291,37.48310173576783]},"properties":{"NODE_ID":"1210021700","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01734672268157,37.50319526199544]},"properties":{"NODE_ID":"1210038200","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01528686091717,37.51171276999677]},"properties":{"NODE_ID":"1210046100","NODE_TYPE":"106","NODE_NAME":"잠원IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09463108112669,37.216494373431935]},"properties":{"NODE_ID":"2330160000","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0107373087654,35.92718277548124]},"properties":{"NODE_ID":"3570850900","NODE_TYPE":"106","NODE_NAME":"북안IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.18687117839188,36.89678858006723]},"properties":{"NODE_ID":"3020168500","NODE_TYPE":"106","NODE_NAME":"북천안IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10269133035273,37.26491545942147]},"properties":{"NODE_ID":"2440040500","NODE_TYPE":"106","NODE_NAME":"수원신갈IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.2978780848771,36.14470409635389]},"properties":{"NODE_ID":"3550271601","NODE_TYPE":"106","NODE_NAME":"북구미하이패스IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.41827510519406,36.401706931221995]},"properties":{"NODE_ID":"1870001500","NODE_TYPE":"106","NODE_NAME":"회덕JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0980939813804,37.406908963564796]},"properties":{"NODE_ID":"2040000200","NODE_TYPE":"106","NODE_NAME":"판교JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42827004832522,36.53359592125012]},"properties":{"NODE_ID":"2830017500","NODE_TYPE":"106","NODE_NAME":"남청주IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.18660101453008,35.80525899346537]},"properties":{"NODE_ID":"3520012300","NODE_TYPE":"106","NODE_NAME":"경주IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.08413301423076,35.843151993454775]},"properties":{"NODE_ID":"3520019100","NODE_TYPE":"106","NODE_NAME":"건천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.94589638808753,35.92209958805186]},"properties":{"NODE_ID":"3570001400","NODE_TYPE":"106","NODE_NAME":"영천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09738386474677,35.2896231915692]},"properties":{"NODE_ID":"1400060000","NODE_TYPE":"106","NODE_NAME":"노포IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.10150284475137,35.290380170097805]},"properties":{"NODE_ID":"1400060500","NODE_TYPE":"106","NODE_NAME":"노포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.18916137810794,36.89527979286831]},"properties":{"NODE_ID":"3020169300","NODE_TYPE":"106","NODE_NAME":"북천안IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.58306201363732,35.90951799321441]},"properties":{"NODE_ID":"1540004300","NODE_TYPE":"106","NODE_NAME":"북대구IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.4301386007074,35.97700491612587]},"properties":{"NODE_ID":"3690138300","NODE_TYPE":"106","NODE_NAME":"왜관IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.4886201477508,35.913258258628126]},"properties":{"NODE_ID":"3690224101","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10139064653448,37.39340396097427]},"properties":{"NODE_ID":"2060004100","NODE_TYPE":"106","NODE_NAME":"판교IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0377668686817,37.46564545713327]},"properties":{"NODE_ID":"1210000800","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01927517543875,37.50103200586952]},"properties":{"NODE_ID":"1210036600","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0944937566099,35.290395694830224]},"properties":{"NODE_ID":"1400059900","NODE_TYPE":"106","NODE_NAME":"노포JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.454311479495,35.9597183895638]},"properties":{"NODE_ID":"3690016200","NODE_TYPE":"106","NODE_NAME":"칠곡물류IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10380174644422,37.265838491174705]},"properties":{"NODE_ID":"2440042500","NODE_TYPE":"106","NODE_NAME":"수원신갈IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.04019098247937,35.33926586839168]},"properties":{"NODE_ID":"3880005400","NODE_TYPE":"106","NODE_NAME":"양산JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09500566104633,37.175264417882]},"properties":{"NODE_ID":"2330526201","NODE_TYPE":"106","NODE_NAME":"동탄JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.15169744896048,36.99526140077627]},"properties":{"NODE_ID":"2310003000","NODE_TYPE":"106","NODE_NAME":"안성IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42129138733954,36.439410837836576]},"properties":{"NODE_ID":"1870002700","NODE_TYPE":"106","NODE_NAME":"신탄진IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09939977996025,37.39853602715389]},"properties":{"NODE_ID":"2060060200","NODE_TYPE":"101","NODE_NAME":"판교IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.430083074553,36.53156483844616]},"properties":{"NODE_ID":"2830019300","NODE_TYPE":"106","NODE_NAME":"남청주IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02584842850767,37.484059075309204]},"properties":{"NODE_ID":"1210022900","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01635812355785,37.51704424059508]},"properties":{"NODE_ID":"1210048000","NODE_TYPE":"106","NODE_NAME":"한남IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01645974798967,37.51762838846955]},"properties":{"NODE_ID":"1210048700","NODE_TYPE":"106","NODE_NAME":"한남IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.9505312634511,35.9258608687984]},"properties":{"NODE_ID":"3570001800","NODE_TYPE":"106","NODE_NAME":"영천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.00668587784466,35.91712430601585]},"properties":{"NODE_ID":"3570850800","NODE_TYPE":"106","NODE_NAME":"영천JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.45005366817321,36.36213936965924]},"properties":{"NODE_ID":"1870000600","NODE_TYPE":"106","NODE_NAME":"대전IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09159041982338,35.48697430658929]},"properties":{"NODE_ID":"3880013900","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0945709204394,35.247784462037686]},"properties":{"NODE_ID":"1400003000","NODE_TYPE":"101","NODE_NAME":"구서IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49221191634078,35.9076496313319]},"properties":{"NODE_ID":"3690223601","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49280923552897,35.903707667635985]},"properties":{"NODE_ID":"3690222801","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0941466971366,35.5010794271328]},"properties":{"NODE_ID":"1960316800","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.57010388742137,36.31076216142764]},"properties":{"NODE_ID":"2760149800","NODE_TYPE":"106","NODE_NAME":"옥천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02516372158317,37.48591373897621]},"properties":{"NODE_ID":"1210001200","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0256898171913,37.48397792452807]},"properties":{"NODE_ID":"1210022800","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01739599643467,37.50329605925816]},"properties":{"NODE_ID":"1210038400","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01830009008953,37.50345220298137]},"properties":{"NODE_ID":"1210038800","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08959223152624,37.2226231619943]},"properties":{"NODE_ID":"2440031100","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.6893421765549,35.88889558219137]},"properties":{"NODE_ID":"1510212301","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.48719508650024,35.90674377461918]},"properties":{"NODE_ID":"3690222601","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49576278075043,35.90824118941489]},"properties":{"NODE_ID":"3690224301","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08384718300869,37.41398522132269]},"properties":{"NODE_ID":"2040142900","NODE_TYPE":"106","NODE_NAME":"금토JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.48215955475405,36.341592329778614]},"properties":{"NODE_ID":"1830073100","NODE_TYPE":"106","NODE_NAME":"비룡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0964772283531,35.501759448947574]},"properties":{"NODE_ID":"1960317300","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0844800138279,35.84496299362805]},"properties":{"NODE_ID":"3520019600","NODE_TYPE":"106","NODE_NAME":"건천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0168725845238,37.520626111993145]},"properties":{"NODE_ID":"1210049100","NODE_TYPE":"106","NODE_NAME":"한남IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09981138857634,35.25328630574637]},"properties":{"NODE_ID":"1400003500","NODE_TYPE":"106","NODE_NAME":"구서IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.16764291769282,36.82461071320938]},"properties":{"NODE_ID":"3010090300","NODE_TYPE":"106","NODE_NAME":"천안IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.66787889055877,35.91037825082412]},"properties":{"NODE_ID":"1510018100","NODE_TYPE":"106","NODE_NAME":"도동JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.45542567892278,35.95450508413108]},"properties":{"NODE_ID":"3690016000","NODE_TYPE":"106","NODE_NAME":"칠곡물류IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08568608821452,37.21661117217687]},"properties":{"NODE_ID":"2330518401","NODE_TYPE":"101","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.49368508827837,35.902190299868984]},"properties":{"NODE_ID":"3690222701","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.12917957584776,35.564609493391146]},"properties":{"NODE_ID":"1960011800","NODE_TYPE":"106","NODE_NAME":"언양JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.13405373262572,35.56458002484907]},"properties":{"NODE_ID":"1960011900","NODE_TYPE":"106","NODE_NAME":"언양JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.83486270508824,36.26824114401836]},"properties":{"NODE_ID":"2770102800","NODE_TYPE":"106","NODE_NAME":"영동IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.38392438748367,36.6247981814858]},"properties":{"NODE_ID":"2710003400","NODE_TYPE":"106","NODE_NAME":"청주IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.43072819991569,36.53715149374982]},"properties":{"NODE_ID":"2830019900","NODE_TYPE":"106","NODE_NAME":"남청주IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.2658050757846,36.16485155662828]},"properties":{"NODE_ID":"3530017800","NODE_TYPE":"106","NODE_NAME":"김천JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.03790379288016,37.46574013751441]},"properties":{"NODE_ID":"1210013800","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.10824538906246,35.271291149065576]},"properties":{"NODE_ID":"1400004700","NODE_TYPE":"106","NODE_NAME":"영락IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.10384315180048,35.28385585177706]},"properties":{"NODE_ID":"1400060700","NODE_TYPE":"106","NODE_NAME":"노포JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.18910567757788,36.90007132741763]},"properties":{"NODE_ID":"3020169200","NODE_TYPE":"106","NODE_NAME":"북천안IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.66041377723323,35.91189128115692]},"properties":{"NODE_ID":"1510018400","NODE_TYPE":"106","NODE_NAME":"도동JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.58556237059975,35.91275480619056]},"properties":{"NODE_ID":"1540033200","NODE_TYPE":"106","NODE_NAME":"북대구IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.098944824239,37.28973233823006]},"properties":{"NODE_ID":"2440036200","NODE_TYPE":"106","NODE_NAME":"신갈JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.6871634048739,35.8904142613022]},"properties":{"NODE_ID":"1510017500","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.4763545888171,36.34585252450636]},"properties":{"NODE_ID":"1830071700","NODE_TYPE":"106","NODE_NAME":"비룡IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.4164730117461,36.40461264989422]},"properties":{"NODE_ID":"1870001800","NODE_TYPE":"106","NODE_NAME":"회덕JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.44794808781037,36.36708419718936]},"properties":{"NODE_ID":"1870078100","NODE_TYPE":"106","NODE_NAME":"대전IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.38199763734303,36.62558849377086]},"properties":{"NODE_ID":"2710003500","NODE_TYPE":"106","NODE_NAME":"청주IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09441782224295,35.49707256372067]},"properties":{"NODE_ID":"1960316900","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.19197258323777,35.715077244885286]},"properties":{"NODE_ID":"1960317500","NODE_TYPE":"106","NODE_NAME":"활천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.04187953925847,37.46496032427847]},"properties":{"NODE_ID":"1210000600","NODE_TYPE":"106","NODE_NAME":"양재IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.02866160717747,37.48387713713531]},"properties":{"NODE_ID":"1210023100","NODE_TYPE":"106","NODE_NAME":"서초IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0868379909743,35.29533309152263]},"properties":{"NODE_ID":"1400059600","NODE_TYPE":"106","NODE_NAME":"노포JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09266773313644,35.48859736868242]},"properties":{"NODE_ID":"3880014200","NODE_TYPE":"106","NODE_NAME":"통도사IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.04991436450194,35.37839530880414]},"properties":{"NODE_ID":"3880146100","NODE_TYPE":"106","NODE_NAME":"양산IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.1927722495947,35.71142735930281]},"properties":{"NODE_ID":"1960317600","NODE_TYPE":"106","NODE_NAME":"활천IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.43160868915662,36.56168259200906]},"properties":{"NODE_ID":"2830020300","NODE_TYPE":"106","NODE_NAME":"청주JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0195032311312,37.500929770034965]},"properties":{"NODE_ID":"1210036700","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01849962130798,37.5034304099143]},"properties":{"NODE_ID":"1210039000","NODE_TYPE":"106","NODE_NAME":"반포IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.36909530764876,36.07134403858229]},"properties":{"NODE_ID":"3550061000","NODE_TYPE":"106","NODE_NAME":"남구미IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09958976369884,35.24912224308826]},"properties":{"NODE_ID":"1400003200","NODE_TYPE":"106","NODE_NAME":"구서IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.21323482416167,36.76252840099788]},"properties":{"NODE_ID":"3010102600","NODE_TYPE":"106","NODE_NAME":"목천IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.52156601363205,35.89321099330291]},"properties":{"NODE_ID":"1540001000","NODE_TYPE":"106","NODE_NAME":"금호JC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.58671337229399,35.91322227862223]},"properties":{"NODE_ID":"1540033300","NODE_TYPE":"106","NODE_NAME":"북대구IC","TURN_P":"1","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10217759723453,37.22312862684142]},"properties":{"NODE_ID":"2440328800","NODE_TYPE":"106","NODE_NAME":"기흥IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0004","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.10162234071136,37.222354022355006]},"properties":{"NODE_ID":"2440331800","NODE_TYPE":"106","NODE_NAME":"기흥IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09891948681268,37.219026790041596]},"properties":{"NODE_ID":"2440036001","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"1","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":"2440036000"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09874353027075,37.219109922327455]},"properties":{"NODE_ID":"2440036002","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":"2440036000"}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.07874294257839,37.143171189909964]},"properties":{"NODE_ID":"2230154100","NODE_TYPE":"106","NODE_NAME":"오산IC","TURN_P":"0","UPDATEDATE":"20231218","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.08975864321516,37.41062704693032]},"properties":{"NODE_ID":"2040146000","NODE_TYPE":"106","NODE_NAME":"대왕판교IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.07836623404609,37.14306016583933]},"properties":{"NODE_ID":"2230153700","NODE_TYPE":"106","NODE_NAME":"오산IC","TURN_P":"0","UPDATEDATE":"20231218","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.07836750317017,37.14271221602716]},"properties":{"NODE_ID":"2230153400","NODE_TYPE":"106","NODE_NAME":"오산IC","TURN_P":"0","UPDATEDATE":"20231218","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.07874706185501,37.143063099648515]},"properties":{"NODE_ID":"2230154000","NODE_TYPE":"106","NODE_NAME":"오산IC","TURN_P":"0","UPDATEDATE":"20231218","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.1039416779792,35.5202514218952]},"properties":{"NODE_ID":"1960465301","NODE_TYPE":"106","NODE_NAME":"서울주JC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.01686665577753,37.507220970122674]},"properties":{"NODE_ID":"1210042800","NODE_TYPE":"106","NODE_NAME":"잠원IC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.0960768945318,37.214161342768946]},"properties":{"NODE_ID":"2330554300","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20240325","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09632431245686,37.21409297962009]},"properties":{"NODE_ID":"2330554400","NODE_TYPE":"106","NODE_NAME":"기흥동탄IC","TURN_P":"0","UPDATEDATE":"20240325","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.42893104183108,36.57025303778594]},"properties":{"NODE_ID":"2830018300","NODE_TYPE":"106","NODE_NAME":"청주JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[129.09948853010718,35.50895777242946]},"properties":{"NODE_ID":"1960464301","NODE_TYPE":"106","NODE_NAME":"서울주JC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09990385972615,37.223223262431816]},"properties":{"NODE_ID":"2440328900","NODE_TYPE":"106","NODE_NAME":"기흥IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0004","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.67363555756006,36.27977714669876]},"properties":{"NODE_ID":"2760197900","NODE_TYPE":"106","NODE_NAME":"금강IC","TURN_P":"0","UPDATEDATE":"20231013","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.12145071219287,37.109286306605185]},"properties":{"NODE_ID":"2430111101","NODE_TYPE":"101","NODE_NAME":"남사IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.11743294104853,37.10349699172138]},"properties":{"NODE_ID":"2430110901","NODE_TYPE":"101","NODE_NAME":"남사IC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.68851901265046,35.881817993753565]},"properties":{"NODE_ID":"1510002800","NODE_TYPE":"101","NODE_NAME":"동대구JC","TURN_P":"0","UPDATEDATE":"20241129","REMARK":"","HIST_TYPE":"NODE0005","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[127.09572490884102,37.182807605620745]},"properties":{"NODE_ID":"2330552700","NODE_TYPE":"106","NODE_NAME":"동탄JC","TURN_P":"0","UPDATEDATE":"20240325","REMARK":"","HIST_TYPE":"NODE0001","HISTREMARK":""}},
-{"type":"Feature","geometry":{"type":"Point","coordinates":[128.48997749235332,35.9110111925165]},"properties":{"NODE_ID":"3690223901","NODE_TYPE":"101","NODE_NAME":"칠곡JC","TURN_P":"0","UPDATEDATE":"20230519","REMARK":"","HIST_TYPE":"","HISTREMARK":""}}
-]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49182492537597, 35.908746540680454]
+      },
+      "properties": {
+        "NODE_ID": "3690223701",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.05103010443256, 35.37617581977075]
+      },
+      "properties": {
+        "NODE_ID": "3880146200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양산IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0824491295341, 37.417846567957326]
+      },
+      "properties": {
+        "NODE_ID": "2040142800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금토JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.12278295141488, 35.55115277416113]
+      },
+      "properties": {
+        "NODE_ID": "1960008800",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "서울산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.12548401358313, 35.55674036792216]
+      },
+      "properties": {
+        "NODE_ID": "1960009700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서울산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.9056986903261, 36.221911295815104]
+      },
+      "properties": {
+        "NODE_ID": "2770105200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "황간IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02660173640668, 37.481470994771385]
+      },
+      "properties": {
+        "NODE_ID": "1210000900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02683636965172, 37.48351551262961]
+      },
+      "properties": {
+        "NODE_ID": "1210022400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.65648825094604, 35.911307254688374]
+      },
+      "properties": {
+        "NODE_ID": "1510018300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "도동JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.58182601275698, 35.910713993792655]
+      },
+      "properties": {
+        "NODE_ID": "1540004400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북대구IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.4526668791246, 35.955672383072894]
+      },
+      "properties": {
+        "NODE_ID": "3690016100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "칠곡물류IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08700142224518, 37.21541971560501]
+      },
+      "properties": {
+        "NODE_ID": "2330518301",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09054660771244, 35.4889297753352]
+      },
+      "properties": {
+        "NODE_ID": "3880014300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.05259834193893, 35.38094760037277]
+      },
+      "properties": {
+        "NODE_ID": "3880146300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양산IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6979456359045, 35.88819588902008]
+      },
+      "properties": {
+        "NODE_ID": "1510213901",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.48955925892979, 36.34645436185795]
+      },
+      "properties": {
+        "NODE_ID": "1830073300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "비룡IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.41966940972885, 36.44359930444206]
+      },
+      "properties": {
+        "NODE_ID": "1870075300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "신탄진IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.12255645088268, 35.55410730657087]
+      },
+      "properties": {
+        "NODE_ID": "1960009000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서울산IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10150506287766, 37.39500591582988]
+      },
+      "properties": {
+        "NODE_ID": "2060099600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "판교IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.55890951418456, 36.314868742280574]
+      },
+      "properties": {
+        "NODE_ID": "2760149100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "옥천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02606767141836, 37.482945201180854]
+      },
+      "properties": {
+        "NODE_ID": "1210021900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01760941778527, 37.521934525483175]
+      },
+      "properties": {
+        "NODE_ID": "1210050100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "한남IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.36263507930454, 36.11011067256914]
+      },
+      "properties": {
+        "NODE_ID": "3550057500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "구미IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09993864059206, 35.287322178531326]
+      },
+      "properties": {
+        "NODE_ID": "1400060200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.5320410138805, 35.893283993786525]
+      },
+      "properties": {
+        "NODE_ID": "1540001100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금호JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.65625686807147, 35.9144592134327]
+      },
+      "properties": {
+        "NODE_ID": "1510018700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "도동JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08745373791434, 37.215535094364625]
+      },
+      "properties": {
+        "NODE_ID": "2330518501",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.09431271457606, 36.13383385971477]
+      },
+      "properties": {
+        "NODE_ID": "3530110600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "김천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0896611372921, 37.40410730781549]
+      },
+      "properties": {
+        "NODE_ID": "2040000100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "판교JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.37045554115917, 36.66098170412549]
+      },
+      "properties": {
+        "NODE_ID": "2710229400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "옥산하이패스IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42435466799557, 36.59314808745073]
+      },
+      "properties": {
+        "NODE_ID": "2830014700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남이JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.43661529958386, 36.56372400741002]
+      },
+      "properties": {
+        "NODE_ID": "2830021600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "청주JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08610299196836, 37.217406991754366]
+      },
+      "properties": {
+        "NODE_ID": "2330518601",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03927069012309, 37.4631554685341]
+      },
+      "properties": {
+        "NODE_ID": "1210012500",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.95448717053551, 35.9224605250618]
+      },
+      "properties": {
+        "NODE_ID": "3570001500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.17245541910441, 36.83121655708964]
+      },
+      "properties": {
+        "NODE_ID": "3010092700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "천안IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.5246310135996, 35.897123993387936]
+      },
+      "properties": {
+        "NODE_ID": "1540001800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금호JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.69899401347152, 35.882890993377835]
+      },
+      "properties": {
+        "NODE_ID": "1510003100",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.30466694461768, 36.14199686072988]
+      },
+      "properties": {
+        "NODE_ID": "3550272001",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북구미하이패스IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49038410813668, 35.90606725893569]
+      },
+      "properties": {
+        "NODE_ID": "3690223001",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09054610400734, 37.178111918050654]
+      },
+      "properties": {
+        "NODE_ID": "2330120100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동탄JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.4195900427254, 36.437599463025755]
+      },
+      "properties": {
+        "NODE_ID": "1870075200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "신탄진IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10331025015077, 37.26806049703805]
+      },
+      "properties": {
+        "NODE_ID": "2440326800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "수원신갈IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02520003128548, 37.48530460637576]
+      },
+      "properties": {
+        "NODE_ID": "1210025600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.218592793467, 36.7584457449023]
+      },
+      "properties": {
+        "NODE_ID": "3010104000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "목천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.43040079035907, 35.97956632049718]
+      },
+      "properties": {
+        "NODE_ID": "3690068800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "왜관IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.43503594992973, 35.97520767194812]
+      },
+      "properties": {
+        "NODE_ID": "3690069600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "왜관IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6972827613342, 35.88390436301104]
+      },
+      "properties": {
+        "NODE_ID": "1510212701",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.19013520898793, 35.70906615944846]
+      },
+      "properties": {
+        "NODE_ID": "1960317400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "활천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42017735581872, 36.60461868231872]
+      },
+      "properties": {
+        "NODE_ID": "2710000200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남이JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.17754841854413, 36.77500018281367]
+      },
+      "properties": {
+        "NODE_ID": "3010095600",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "천안JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.2725425439041, 36.15651643190672]
+      },
+      "properties": {
+        "NODE_ID": "3530017000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "김천JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.04275740610213, 37.460633596567206]
+      },
+      "properties": {
+        "NODE_ID": "1210011400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02519426479526, 37.483398674601496]
+      },
+      "properties": {
+        "NODE_ID": "1210022500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.04817999608376, 37.454775253261786]
+      },
+      "properties": {
+        "NODE_ID": "1210074700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "신양재IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.69214835028646, 35.88411771716364]
+      },
+      "properties": {
+        "NODE_ID": "1510212101",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49345372174957, 35.903183936931214]
+      },
+      "properties": {
+        "NODE_ID": "3690222901",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0961377217735, 37.1781322102988]
+      },
+      "properties": {
+        "NODE_ID": "2330526601",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동탄JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.56690886258522, 36.30976101821161]
+      },
+      "properties": {
+        "NODE_ID": "2760149400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "옥천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.0889963130091, 36.13419962948864]
+      },
+      "properties": {
+        "NODE_ID": "3530014400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "김천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.25960269993672, 36.1613826191394]
+      },
+      "properties": {
+        "NODE_ID": "3530017600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "김천JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.66719601338528, 35.9173469938985]
+      },
+      "properties": {
+        "NODE_ID": "1510004700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "도동JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.52566301356708, 35.88931399408489]
+      },
+      "properties": {
+        "NODE_ID": "1540000100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금호JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.1893487944118, 36.76702367606214]
+      },
+      "properties": {
+        "NODE_ID": "3010098700",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "천안JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.22055976204945, 36.76026699430307]
+      },
+      "properties": {
+        "NODE_ID": "3010104700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "목천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6952686875994, 35.88515616717364]
+      },
+      "properties": {
+        "NODE_ID": "1510212601",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.04059755873038, 37.46385955178671]
+      },
+      "properties": {
+        "NODE_ID": "1210013100",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42136194891421, 36.4100023685295]
+      },
+      "properties": {
+        "NODE_ID": "1870001900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "회덕JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.45412662528912, 36.35984660511417]
+      },
+      "properties": {
+        "NODE_ID": "1870078600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "대전IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03953988083167, 37.464016220606176]
+      },
+      "properties": {
+        "NODE_ID": "1210013400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01503122284079, 37.50914758346151]
+      },
+      "properties": {
+        "NODE_ID": "1210044700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "잠원IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.046358254059, 37.45728267150826]
+      },
+      "properties": {
+        "NODE_ID": "1210074300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.16683001201824, 36.82655293199038]
+      },
+      "properties": {
+        "NODE_ID": "3010090200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "천안IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08746817732269, 37.215254423064415]
+      },
+      "properties": {
+        "NODE_ID": "2330496100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.3014474920945, 36.14248246295801]
+      },
+      "properties": {
+        "NODE_ID": "3550271801",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북구미하이패스IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02690677772166, 37.48114869966723]
+      },
+      "properties": {
+        "NODE_ID": "1210020300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.08739001411226, 35.840969994121934]
+      },
+      "properties": {
+        "NODE_ID": "3520017900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "건천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.1733632413711, 36.13360681774466]
+      },
+      "properties": {
+        "NODE_ID": "3530023400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동김천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.17531466900266, 36.13797630830708]
+      },
+      "properties": {
+        "NODE_ID": "3530023600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동김천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03773579949426, 37.461899229260816]
+      },
+      "properties": {
+        "NODE_ID": "1210000500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.04200577933376, 37.461184986355725]
+      },
+      "properties": {
+        "NODE_ID": "1210011300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03941306426084, 37.46391089236923]
+      },
+      "properties": {
+        "NODE_ID": "1210013300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02383811218291, 37.48310173576783]
+      },
+      "properties": {
+        "NODE_ID": "1210021700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01734672268157, 37.50319526199544]
+      },
+      "properties": {
+        "NODE_ID": "1210038200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01528686091717, 37.51171276999677]
+      },
+      "properties": {
+        "NODE_ID": "1210046100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "잠원IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09463108112669, 37.216494373431935]
+      },
+      "properties": {
+        "NODE_ID": "2330160000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0107373087654, 35.92718277548124]
+      },
+      "properties": {
+        "NODE_ID": "3570850900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북안IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.18687117839188, 36.89678858006723]
+      },
+      "properties": {
+        "NODE_ID": "3020168500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북천안IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10269133035273, 37.26491545942147]
+      },
+      "properties": {
+        "NODE_ID": "2440040500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "수원신갈IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.2978780848771, 36.14470409635389]
+      },
+      "properties": {
+        "NODE_ID": "3550271601",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북구미하이패스IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.41827510519406, 36.401706931221995]
+      },
+      "properties": {
+        "NODE_ID": "1870001500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "회덕JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0980939813804, 37.406908963564796]
+      },
+      "properties": {
+        "NODE_ID": "2040000200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "판교JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42827004832522, 36.53359592125012]
+      },
+      "properties": {
+        "NODE_ID": "2830017500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남청주IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.18660101453008, 35.80525899346537]
+      },
+      "properties": {
+        "NODE_ID": "3520012300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "경주IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.08413301423076, 35.843151993454775]
+      },
+      "properties": {
+        "NODE_ID": "3520019100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "건천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.94589638808753, 35.92209958805186]
+      },
+      "properties": {
+        "NODE_ID": "3570001400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09738386474677, 35.2896231915692]
+      },
+      "properties": {
+        "NODE_ID": "1400060000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.10150284475137, 35.290380170097805]
+      },
+      "properties": {
+        "NODE_ID": "1400060500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.18916137810794, 36.89527979286831]
+      },
+      "properties": {
+        "NODE_ID": "3020169300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북천안IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.58306201363732, 35.90951799321441]
+      },
+      "properties": {
+        "NODE_ID": "1540004300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북대구IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.4301386007074, 35.97700491612587]
+      },
+      "properties": {
+        "NODE_ID": "3690138300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "왜관IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.4886201477508, 35.913258258628126]
+      },
+      "properties": {
+        "NODE_ID": "3690224101",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10139064653448, 37.39340396097427]
+      },
+      "properties": {
+        "NODE_ID": "2060004100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "판교IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0377668686817, 37.46564545713327]
+      },
+      "properties": {
+        "NODE_ID": "1210000800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01927517543875, 37.50103200586952]
+      },
+      "properties": {
+        "NODE_ID": "1210036600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0944937566099, 35.290395694830224]
+      },
+      "properties": {
+        "NODE_ID": "1400059900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.454311479495, 35.9597183895638]
+      },
+      "properties": {
+        "NODE_ID": "3690016200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "칠곡물류IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10380174644422, 37.265838491174705]
+      },
+      "properties": {
+        "NODE_ID": "2440042500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "수원신갈IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.04019098247937, 35.33926586839168]
+      },
+      "properties": {
+        "NODE_ID": "3880005400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양산JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09500566104633, 37.175264417882]
+      },
+      "properties": {
+        "NODE_ID": "2330526201",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동탄JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.15169744896048, 36.99526140077627]
+      },
+      "properties": {
+        "NODE_ID": "2310003000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "안성IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42129138733954, 36.439410837836576]
+      },
+      "properties": {
+        "NODE_ID": "1870002700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "신탄진IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09939977996025, 37.39853602715389]
+      },
+      "properties": {
+        "NODE_ID": "2060060200",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "판교IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.430083074553, 36.53156483844616]
+      },
+      "properties": {
+        "NODE_ID": "2830019300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남청주IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02584842850767, 37.484059075309204]
+      },
+      "properties": {
+        "NODE_ID": "1210022900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01635812355785, 37.51704424059508]
+      },
+      "properties": {
+        "NODE_ID": "1210048000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "한남IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01645974798967, 37.51762838846955]
+      },
+      "properties": {
+        "NODE_ID": "1210048700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "한남IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.9505312634511, 35.9258608687984]
+      },
+      "properties": {
+        "NODE_ID": "3570001800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.00668587784466, 35.91712430601585]
+      },
+      "properties": {
+        "NODE_ID": "3570850800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영천JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.45005366817321, 36.36213936965924]
+      },
+      "properties": {
+        "NODE_ID": "1870000600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "대전IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09159041982338, 35.48697430658929]
+      },
+      "properties": {
+        "NODE_ID": "3880013900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0945709204394, 35.247784462037686]
+      },
+      "properties": {
+        "NODE_ID": "1400003000",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "구서IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49221191634078, 35.9076496313319]
+      },
+      "properties": {
+        "NODE_ID": "3690223601",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49280923552897, 35.903707667635985]
+      },
+      "properties": {
+        "NODE_ID": "3690222801",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0941466971366, 35.5010794271328]
+      },
+      "properties": {
+        "NODE_ID": "1960316800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.57010388742137, 36.31076216142764]
+      },
+      "properties": {
+        "NODE_ID": "2760149800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "옥천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02516372158317, 37.48591373897621]
+      },
+      "properties": {
+        "NODE_ID": "1210001200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0256898171913, 37.48397792452807]
+      },
+      "properties": {
+        "NODE_ID": "1210022800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01739599643467, 37.50329605925816]
+      },
+      "properties": {
+        "NODE_ID": "1210038400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01830009008953, 37.50345220298137]
+      },
+      "properties": {
+        "NODE_ID": "1210038800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08959223152624, 37.2226231619943]
+      },
+      "properties": {
+        "NODE_ID": "2440031100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6893421765549, 35.88889558219137]
+      },
+      "properties": {
+        "NODE_ID": "1510212301",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.48719508650024, 35.90674377461918]
+      },
+      "properties": {
+        "NODE_ID": "3690222601",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49576278075043, 35.90824118941489]
+      },
+      "properties": {
+        "NODE_ID": "3690224301",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08384718300869, 37.41398522132269]
+      },
+      "properties": {
+        "NODE_ID": "2040142900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금토JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.48215955475405, 36.341592329778614]
+      },
+      "properties": {
+        "NODE_ID": "1830073100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "비룡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0964772283531, 35.501759448947574]
+      },
+      "properties": {
+        "NODE_ID": "1960317300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0844800138279, 35.84496299362805]
+      },
+      "properties": {
+        "NODE_ID": "3520019600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "건천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0168725845238, 37.520626111993145]
+      },
+      "properties": {
+        "NODE_ID": "1210049100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "한남IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09981138857634, 35.25328630574637]
+      },
+      "properties": {
+        "NODE_ID": "1400003500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "구서IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.16764291769282, 36.82461071320938]
+      },
+      "properties": {
+        "NODE_ID": "3010090300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "천안IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.66787889055877, 35.91037825082412]
+      },
+      "properties": {
+        "NODE_ID": "1510018100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "도동JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.45542567892278, 35.95450508413108]
+      },
+      "properties": {
+        "NODE_ID": "3690016000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "칠곡물류IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08568608821452, 37.21661117217687]
+      },
+      "properties": {
+        "NODE_ID": "2330518401",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.49368508827837, 35.902190299868984]
+      },
+      "properties": {
+        "NODE_ID": "3690222701",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.12917957584776, 35.564609493391146]
+      },
+      "properties": {
+        "NODE_ID": "1960011800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "언양JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.13405373262572, 35.56458002484907]
+      },
+      "properties": {
+        "NODE_ID": "1960011900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "언양JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.83486270508824, 36.26824114401836]
+      },
+      "properties": {
+        "NODE_ID": "2770102800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영동IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.38392438748367, 36.6247981814858]
+      },
+      "properties": {
+        "NODE_ID": "2710003400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "청주IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.43072819991569, 36.53715149374982]
+      },
+      "properties": {
+        "NODE_ID": "2830019900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남청주IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.2658050757846, 36.16485155662828]
+      },
+      "properties": {
+        "NODE_ID": "3530017800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "김천JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.03790379288016, 37.46574013751441]
+      },
+      "properties": {
+        "NODE_ID": "1210013800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.10824538906246, 35.271291149065576]
+      },
+      "properties": {
+        "NODE_ID": "1400004700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "영락IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.10384315180048, 35.28385585177706]
+      },
+      "properties": {
+        "NODE_ID": "1400060700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.18910567757788, 36.90007132741763]
+      },
+      "properties": {
+        "NODE_ID": "3020169200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북천안IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.66041377723323, 35.91189128115692]
+      },
+      "properties": {
+        "NODE_ID": "1510018400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "도동JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.58556237059975, 35.91275480619056]
+      },
+      "properties": {
+        "NODE_ID": "1540033200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북대구IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.098944824239, 37.28973233823006]
+      },
+      "properties": {
+        "NODE_ID": "2440036200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "신갈JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.6871634048739, 35.8904142613022]
+      },
+      "properties": {
+        "NODE_ID": "1510017500",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.4763545888171, 36.34585252450636]
+      },
+      "properties": {
+        "NODE_ID": "1830071700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "비룡IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.4164730117461, 36.40461264989422]
+      },
+      "properties": {
+        "NODE_ID": "1870001800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "회덕JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.44794808781037, 36.36708419718936]
+      },
+      "properties": {
+        "NODE_ID": "1870078100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "대전IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.38199763734303, 36.62558849377086]
+      },
+      "properties": {
+        "NODE_ID": "2710003500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "청주IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09441782224295, 35.49707256372067]
+      },
+      "properties": {
+        "NODE_ID": "1960316900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.19197258323777, 35.715077244885286]
+      },
+      "properties": {
+        "NODE_ID": "1960317500",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "활천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.04187953925847, 37.46496032427847]
+      },
+      "properties": {
+        "NODE_ID": "1210000600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양재IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.02866160717747, 37.48387713713531]
+      },
+      "properties": {
+        "NODE_ID": "1210023100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서초IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.0868379909743, 35.29533309152263]
+      },
+      "properties": {
+        "NODE_ID": "1400059600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "노포JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09266773313644, 35.48859736868242]
+      },
+      "properties": {
+        "NODE_ID": "3880014200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "통도사IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.04991436450194, 35.37839530880414]
+      },
+      "properties": {
+        "NODE_ID": "3880146100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "양산IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.1927722495947, 35.71142735930281]
+      },
+      "properties": {
+        "NODE_ID": "1960317600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "활천IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.43160868915662, 36.56168259200906]
+      },
+      "properties": {
+        "NODE_ID": "2830020300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "청주JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0195032311312, 37.500929770034965]
+      },
+      "properties": {
+        "NODE_ID": "1210036700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01849962130798, 37.5034304099143]
+      },
+      "properties": {
+        "NODE_ID": "1210039000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "반포IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.36909530764876, 36.07134403858229]
+      },
+      "properties": {
+        "NODE_ID": "3550061000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "남구미IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09958976369884, 35.24912224308826]
+      },
+      "properties": {
+        "NODE_ID": "1400003200",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "구서IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.21323482416167, 36.76252840099788]
+      },
+      "properties": {
+        "NODE_ID": "3010102600",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "목천IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.52156601363205, 35.89321099330291]
+      },
+      "properties": {
+        "NODE_ID": "1540001000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금호JC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.58671337229399, 35.91322227862223]
+      },
+      "properties": {
+        "NODE_ID": "1540033300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "북대구IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10217759723453, 37.22312862684142]
+      },
+      "properties": {
+        "NODE_ID": "2440328800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0004",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.10162234071136, 37.222354022355006]
+      },
+      "properties": {
+        "NODE_ID": "2440331800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09891948681268, 37.219026790041596]
+      },
+      "properties": {
+        "NODE_ID": "2440036001",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "1",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": "2440036000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09874353027075, 37.219109922327455]
+      },
+      "properties": {
+        "NODE_ID": "2440036002",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": "2440036000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.07874294257839, 37.143171189909964]
+      },
+      "properties": {
+        "NODE_ID": "2230154100",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "오산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20231218",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.08975864321516, 37.41062704693032]
+      },
+      "properties": {
+        "NODE_ID": "2040146000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "대왕판교IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.07836623404609, 37.14306016583933]
+      },
+      "properties": {
+        "NODE_ID": "2230153700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "오산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20231218",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.07836750317017, 37.14271221602716]
+      },
+      "properties": {
+        "NODE_ID": "2230153400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "오산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20231218",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.07874706185501, 37.143063099648515]
+      },
+      "properties": {
+        "NODE_ID": "2230154000",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "오산IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20231218",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.1039416779792, 35.5202514218952]
+      },
+      "properties": {
+        "NODE_ID": "1960465301",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서울주JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.01686665577753, 37.507220970122674]
+      },
+      "properties": {
+        "NODE_ID": "1210042800",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "잠원IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.0960768945318, 37.214161342768946]
+      },
+      "properties": {
+        "NODE_ID": "2330554300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20240325",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09632431245686, 37.21409297962009]
+      },
+      "properties": {
+        "NODE_ID": "2330554400",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥동탄IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20240325",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.42893104183108, 36.57025303778594]
+      },
+      "properties": {
+        "NODE_ID": "2830018300",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "청주JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.09948853010718, 35.50895777242946]
+      },
+      "properties": {
+        "NODE_ID": "1960464301",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "서울주JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09990385972615, 37.223223262431816]
+      },
+      "properties": {
+        "NODE_ID": "2440328900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "기흥IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0004",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.67363555756006, 36.27977714669876]
+      },
+      "properties": {
+        "NODE_ID": "2760197900",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "금강IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20231013",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.12145071219287, 37.109286306605185]
+      },
+      "properties": {
+        "NODE_ID": "2430111101",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "남사IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.11743294104853, 37.10349699172138]
+      },
+      "properties": {
+        "NODE_ID": "2430110901",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "남사IC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.68851901265046, 35.881817993753565]
+      },
+      "properties": {
+        "NODE_ID": "1510002800",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "동대구JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20241129",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0005",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09572490884102, 37.182807605620745]
+      },
+      "properties": {
+        "NODE_ID": "2330552700",
+        "NODE_TYPE": "106",
+        "NODE_NAME": "동탄JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20240325",
+        "REMARK": "",
+        "HIST_TYPE": "NODE0001",
+        "HISTREMARK": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.48997749235332, 35.9110111925165]
+      },
+      "properties": {
+        "NODE_ID": "3690223901",
+        "NODE_TYPE": "101",
+        "NODE_NAME": "칠곡JC",
+        "TURN_P": "0",
+        "UPDATEDATE": "20230519",
+        "REMARK": "",
+        "HIST_TYPE": "",
+        "HISTREMARK": ""
+      }
+    }
+  ]
+}

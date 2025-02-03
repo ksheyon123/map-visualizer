@@ -23,8 +23,8 @@ export const useD3Overlay = () => {
       .merge(pathes as any)
       .attr("d", (d: LinkFeature) => lngLatToLine(map, d))
       .attr("fill", "none")
-      .attr("stroke", "#3498db")
-      .attr("stroke-width", 2)
+      .attr("stroke", (d: LinkFeature) => d.properties.COLOR || "#3498db")
+      .attr("stroke-width", 6)
       .attr("class", "hover:opacity-80 transition-opacity");
     return pathes;
   };

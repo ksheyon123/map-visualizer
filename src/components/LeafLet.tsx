@@ -3,7 +3,6 @@ import * as d3 from "d3";
 import L from "leaflet";
 import nodes from "@/constants/NODE.json";
 import links from "@/constants/LINK.json";
-import { LinkFeature, NodeFeature } from "@/types/type.d3";
 import { layoutContour } from "@/utils/d3Utils";
 import { useD3Overlay } from "@/hooks/useD3Overlay";
 
