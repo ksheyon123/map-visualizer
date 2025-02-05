@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev",
-    "build": "next build",
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -11,7 +11,6 @@
     "d3": "^7.9.0",
     "leaflet": "^1.9.4",
     "next": "^14.2.23",
-    "proj4": "^2.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

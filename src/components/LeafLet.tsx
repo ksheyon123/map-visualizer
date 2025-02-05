@@ -5,6 +5,8 @@ import nodes from "@/constants/NODE.json";
 import links from "@/constants/LINK.json";
 import { layoutContour } from "@/utils/d3Utils";
 import { useD3Overlay } from "@/hooks/useD3Overlay";
+import "leaflet/dist/leaflet.css";
+import "tailwindcss/tailwind.css";
 
 export const LeafletD3Map = () => {
   const mapRef = useRef<any>(null);
