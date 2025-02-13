@@ -8,7 +8,12 @@ import { useD3Overlay } from "@/hooks/useD3Overlay";
 import "leaflet/dist/leaflet.css";
 import "tailwindcss/tailwind.css";
 
-export const LeafletD3Map = () => {
+interface IProps {
+  width: string;
+  height: string;
+}
+
+export const LeafletD3Map = ({ width = "400px", height = "400px" }: IProps) => {
   const mapRef = useRef<any>(null);
   const { setGroup, drawLink, drawNode } = useD3Overlay();
   useEffect(() => {
@@ -18,7 +23,7 @@ export const LeafletD3Map = () => {
     const map = L.map(mapRef.current, {
       // 맵 옵션 추가
       center: [cx, cy],
-      zoom: 12,
+      zoom: 7,
       maxBounds: [
         [33.0, 124.0], // 남서쪽 경계
         [43.0, 132.0], // 북동쪽 경계
@@ -75,7 +80,7 @@ export const LeafletD3Map = () => {
   }, []);
 
   return (
-    <div className="w-[600px] h-[800px] relative">
+    <div className={`w-[600px] h-[600px]`}>
       <div ref={mapRef} className="w-full h-full" />
     </div>
   );
